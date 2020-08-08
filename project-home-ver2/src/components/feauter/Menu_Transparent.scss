@@ -1,0 +1,23 @@
+.menu-transparent {
+    .chuatrong {
+        padding: 200px 0;
+    }
+    .content_six {
+        background-image: url("/images/img-menu/170.jpg");
+        background-size: cover;
+        background-position: 50%;
+        .box-desc {
+            padding: 0 0 100px 0;
+        }
+        .desc {
+            background-color: #fff;
+            padding: 20px;
+        }
+        .article {
+            background-color: #fff;
+            margin-top: -17px!important;
+            border-top: none;
+            padding: 10px 20px;
+        }
+    }
+}

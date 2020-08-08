@@ -1,0 +1,94 @@
+.footer-modern {
+    padding-top: 150px;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-image: url("/147.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    .fot-column {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        &-addon {
+            position: relative;
+            .img-responsive {
+                display: block;
+
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .fot-contact {
+            padding: 100px;
+            background-color: #fff;
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+            -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+            .title {
+                margin-bottom: 30px;
+                color: #fccb06;
+                font-weight: 400;
+                line-height: 40px;
+                font-size: 18px;
+                font-style: normal;
+                span {
+                    display: block;
+                    margin-bottom: 3px;
+                    font-weight: 600;
+                    line-height: 50px;
+                    margin-top: 3px;
+                    font-size: 35px;
+                    color: #272727;
+                }
+                &:after {
+                    display: block;
+                    content: "";
+                    background-color: #fccb06;
+                    width: 12%;
+                    height: 2px;
+                    margin: 15px 88% 0 auto;
+                }
+            }
+            .form-group {
+                margin: 0px 0px 15px 0px;
+                .from-control {
+                    background-color: #fff;
+                    border: 1px solid #e4e4e4;
+                    color: #101010;
+                    height: 45px;
+                    margin-bottom: 15px;
+                    padding: 8px;
+                    transition: all 0.3s ease-out 0s;
+                    width: 100%;
+                    border-radius: 0;
+                }
+                textarea {
+                    height: auto !important;
+                }
+            }
+            .btn {
+                display: inline-block;
+                padding: 10px 36px;
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                background-color: #fccb06;
+                color: #fff;
+                &:hover {
+                    color: #fff;
+                    background-color: #101010;
+                }
+                .fa{
+                    padding: 2px;
+                }
+            }
+        }
+    }
+}

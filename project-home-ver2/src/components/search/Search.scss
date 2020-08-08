@@ -1,0 +1,98 @@
+.panner {
+  background-image: url(/images/panner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00000094;
+  }
+}
+
+.panner_v2 {
+    background-image: url(/images/panner_v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #00000094;
+      }
+}
+
+  
+.heading {
+    position: relative;
+    padding: 190px 0 150px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    .main-heading {
+        font-style: normal;
+        z-index: 2;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 3px;
+        margin-top: 0;
+        line-height: 30px;
+    }
+    .sub-heading {
+        width: 100%;
+        font-size: 18px;
+        margin: 0 auto 70px auto;
+        line-height: 21px;
+        font-weight: 400;
+        z-index: 2;
+    }
+}
+
+.search {
+    margin: 100px 0;
+    .form-group {
+        border-bottom: 1px solid #72727236;
+        padding-bottom: 30px;
+        .form-label {
+            margin-top: 30px;
+        }
+        .input-group{
+            .form-control {
+                width: 100%;
+                box-shadow: none;
+                &:focus {
+                    box-shadow: none;
+                    border: 1px solid #72727236;
+                }
+            }
+            .input-group-append {
+                i {
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .form-check {
+        display: inline-block;
+    }
+    span {
+        font-style: normal;
+        font-size: 15px;
+        line-height: 23px;
+        color: #727272;
+        margin-right: 15px;
+    }
+    .legend{
+        display: block;
+    }
+}

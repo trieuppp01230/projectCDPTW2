@@ -1,0 +1,48 @@
+
+.faq {
+    .panner_v2 {
+        margin-bottom: 150px;
+    }
+}
+.banner{
+    font-family: "Roboto";
+    h4{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    font-weight:normal ;
+    line-height: 25px;
+    margin-bottom: 18px;
+    font-style: normal;
+    }
+    .accordion{
+        
+        border: 1px solid #fff;
+        
+        h3 {
+            outline: 0;
+            color: black;
+            background: #e9e9e9;
+            border: none;
+            padding-bottom: 16px;
+            i {
+                margin-right: 11px;
+            }
+        }
+        .fish {
+            padding-left: 3px;
+            font-size: 16px;
+            color: #756f6f;
+
+        }
+        span {
+            z-index: 2;
+            color: black;
+            float: right;
+            margin-top: 1px;
+        }
+        .ui-widget-content {
+            border: none;
+        }
+    }
+}

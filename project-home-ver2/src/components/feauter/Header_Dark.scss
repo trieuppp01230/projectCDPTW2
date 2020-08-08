@@ -1,0 +1,31 @@
+.header-dark {
+    margin-bottom: 100px;
+    .panner {
+        margin-bottom: 30px;
+    }
+    .menu {
+        background: #fff!important;
+        color: #000!important;
+        position: relative;
+        .nav-link {
+            color:#000!important;
+            &:hover {
+                color:#fccb06!important; 
+            }
+        }
+    }
+    .scrolled {
+        background: #fff!important;
+        box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.12);
+    }
+    .logo {
+        color: #000!important;
+    }
+    .top-menu {
+        background: #101010!important;
+    }
+    .style8 {
+        margin: 100px 0 50px 0;
+    }
+    
+}

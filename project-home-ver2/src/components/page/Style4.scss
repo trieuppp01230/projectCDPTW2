@@ -1,0 +1,50 @@
+.style4{
+    padding-top: 8%;
+    font-family: 'Montserrat', sans-serif;
+    .cot{
+        display: flex;
+        .imgs{
+            width: 100%;
+            }
+        .sppb-addon{
+            padding: 0 0 0 4%;
+            .sppb-addon-title{
+                color: gray;
+            }
+            .sppb-addon-content{
+                padding-top: 12px;
+                .nd{
+                    font-size: 34px;
+                    font-weight: bold;
+                }
+                .ce-title-line{
+                    width: 14%;
+                    height: 2.5px;
+                    background-color: #d2fc13;
+                    margin: 13px auto 0 0;
+                }
+            }
+            .sppb-addon-text{
+                font-size: 14px;
+                line-height: 23px;
+                color: #727272;
+                padding-top: 7%;
+            }
+            .btn{
+                padding-top: 6% ;
+                padding-left: 0%;
+                .nut{
+                    border: none;
+                    color: white;
+                    background-color: black;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+                .nut:hover{
+                    background-color:#342E2D;
+                }
+            }
+        }
+    }
+    
+}

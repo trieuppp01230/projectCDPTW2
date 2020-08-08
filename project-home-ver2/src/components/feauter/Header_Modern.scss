@@ -1,0 +1,40 @@
+.header-modern {
+    img {
+        width: 100%;
+    }
+    .wp-panner-start {
+        background-image: url("/images/header/195.jpg");
+        background-size:cover;
+        background-position: 50% 50%;
+        height: 650px;
+        padding-top: 200px;
+        .panner-start {
+            position: relative;
+            .box-wrapper {
+                position: absolute;
+                top: -60px;
+                left: 0;
+            }
+        }
+    }
+    .box-wrapper {
+        .box-item {
+            background-color: #1d1d1d;
+            opacity: 0.9;
+            .icon {
+                color: #fccb06;
+            }
+            .desc {
+                .title {
+                    color: #fff;
+                }
+                .content {
+                    color: #727272;
+                }
+                .readmore {
+                    color: #727272;
+                }
+            }
+        }
+    }
+}

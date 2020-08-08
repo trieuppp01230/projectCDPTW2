@@ -1,0 +1,90 @@
+.header-light-first {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #f5f5f5;
+
+    //Col-md-6 first
+    .column-6-bg-img {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 150px;
+        background-image: url(/images/header/154.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: 50% 50%;
+
+        .h3-title-headerL {
+            font-weight: 300;
+            width: 60%;
+            padding: 80px;
+            background-color: #fccb06;
+            color: #fff;
+            font-size: 30px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+
+    //Col-md-6 Second
+    .column-6-text-headerL {
+        padding-top: 110px;
+        padding-right: 110px;
+        padding-bottom: 110px;
+        padding-left: 110px;
+
+        .h5-text-title-column-6 {
+            margin-bottom: 3px;
+            color: #888;
+            font-weight: 400;
+            line-height: 40px;
+        }
+
+        .sec-titleleft-content {
+            padding-bottom: 40px;
+
+            .h2-text-column6-headerL {
+                font-family: 'Montserrat', sans-serif;
+                margin-bottom: 3px; 
+                line-height: 50px;  
+                font-weight: 600;
+            }
+
+            .sec-title-line-headerL {
+                width: 12%;
+                height: 2px;
+                background-color: #fccb06;
+                margin: 15px 88% 0 auto;
+            }
+           
+        }
+
+        .iconlist-headerL-2 {
+            width: 100%;
+            padding: 0px;
+            margin: 0px 0px 10px 0px;
+
+            .icon-headerL {
+                width: 18px;
+                height: 18px;
+                padding: 0px;
+                margin: 3px 0px 0px 0px;
+                font-size: 14px;
+                text-align: center;
+                line-height: 15px;
+                color: #fccb06;
+                border-radius: 100%;
+                float: left;
+            }
+        }
+
+        .empty-space-hearlight {
+            height: 45px;
+        }
+        
+        .btn-header-light {
+            padding: 10px 36px;
+        }
+    }
+
+}

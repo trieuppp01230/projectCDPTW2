@@ -1,0 +1,84 @@
+
+.header-22 {
+    padding: 20px;
+    .khoangcach {
+        height: 40px;
+    }
+
+    //Header22-right
+    .text-22 {
+        .text-box {
+            width: 100%;
+            padding: 33px;
+            float: left;
+            border: 1px solid #ebebeb;
+            background-color: #fff;
+            transition: all 0.3s ease-out 0s;
+            .left {
+                float: left;
+            }
+            .padding-left {
+                padding: 0px 0 0px 70px;
+            }
+
+            .icon-plan-msmall {
+                margin: 0px 20px 0px 0px;
+                font-size: 40px;
+                color: #242424;
+                transition: all 0.3s ease-out 0s;
+            }
+            .text-boxs {
+                display: block;
+                margin: 35px 0 0 0;
+                .text-primary {
+                    color: #fccb06 !important;
+                }
+                .text-box-title {
+                    font-size: 18px;
+                    line-height: 23px;
+                    margin-bottom: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    transition: all 0.3s ease-out 0s;
+                }
+            }
+
+            .box-btn {
+                width: 100%;
+                text-transform: uppercase;
+                .text-primary {
+                    color: #fccb06 !important;
+                }
+                &:hover {
+                    color: #fccb06;
+                }
+            }
+        }
+    }
+}
+//Header22-left
+.Header22L {
+    .item {
+        position: relative;
+        .img-text {
+            position: absolute;
+            padding: 20px;
+            float: left;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            span {
+                position: absolute;
+                padding: 20px 40px;
+                background-color: #fff;
+                bottom: 0px;
+                left: 0px;
+                font-size: 20px;
+                i {
+                    color: #fccb06;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,86 @@
+.page-content-panner {
+    background-image: url('/images/17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    position: relative;
+    margin-bottom: 90px;
+    .box-title {
+      text-align: left;
+      color:$white;
+      padding-top: 320px;
+      padding-right: 10px;
+      padding-left: 50px;
+      .main-title {
+        text-transform: uppercase;
+        font-style: normal;
+        @include font(70px, 700, 70px);
+        transform: translateY(-50px);
+        transition: 1s;
+      }
+      span {
+        display: block;
+        @include font(20px, 400, 50px);
+        margin: 20px 0 45px 0;
+      }
+      .get-start {
+        padding: 14px 39px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0px;
+        border: 2px solid $white;
+        background-color: transparent;
+        transition: all ease 0.3s ;
+        &:hover {
+          color: $dark;
+          background-color: $white;
+        }
+      }
+    }
+    .box-img {
+      position: relative;
+      margin-top: 200px;
+      .box-iphone {
+        position: absolute;
+        display: inline-block;
+        float: left;
+        left: 115px;
+        top: 128px;
+        z-index: 1;
+        .img-iphone {
+          width: 165px;
+          height: 288px;
+          position: absolute;
+          top: 42px;
+          left: 34px;
+        }
+        .iphone {
+          width: 230px;
+          height: 400px;
+        }
+      }
+      .box-ipad {
+        position: absolute;
+        float: right;
+        right: 0;
+        .img-ipad {
+          width: 260px;
+          height: 377px;
+          position: absolute;
+          top: 62px;
+          left: 44px;
+        }
+        .ipad {
+          width: 350px;
+          height: 520px;
+        }
+       
+      }
+    }
+  }

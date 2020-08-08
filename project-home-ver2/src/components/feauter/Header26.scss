@@ -1,0 +1,74 @@
+.bat-content{
+    background-image: url('/images/header-white/152.png');
+    width: auto;
+    height:730px;
+    background-size: cover;
+    background-position: 50% 50%;
+    .chimpanze{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom:125px ;
+        .bear{
+            margin-bottom: 3px;
+            line-height: 40px;
+            color: #888;
+            font-weight: 400;
+        }
+        .camel{
+            margin-bottom: 3px;
+            font-weight: 600;
+            line-height: 50px;
+            font-size: 35px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .deer{
+            width: 12%;
+            height: 2px;
+            background-color: #fccb06;
+            margin: 15px auto 0 auto;
+            
+        }
+    }
+    .dolphin{
+        .col-mammoth{
+            .giraffe{
+                .fox-text{
+                    width: 100%;
+                    padding: 60px;
+                    background-color: #fff;
+                    margin-bottom: 25px;
+                    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+                    -webkit-box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+                    font-size: 14px;
+                    margin: 0 0 10px;
+                    color: #727272;
+
+                }
+                .guinea{
+                    width: 100px;
+                    height: 100px;
+                    float: left;
+                    margin: 0px 20px 0px 0px;
+                    border-radius: 100%;
+                    overflow: hidden;
+                    text-align: center;
+                    transition: all 0.3s ease-out 0s;
+                   img{
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                   }
+                   
+                }
+                .hedgehog{
+                    display: block;
+                    padding: 0px 0px 0px 99px;
+                    margin: 0px;
+                    text-align: left;
+                    padding-top: 20px;
+                }
+                
+            }
+        }
+    }
+}

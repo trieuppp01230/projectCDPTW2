@@ -1,0 +1,70 @@
+.md2-home {
+    margin-bottom: 150px;
+    margin-top: 50px;
+    .swiper-button-next::after, .swiper-button-prev::after {
+      font-size: 20px;
+      color: #000;
+      padding: 10px 15px;
+      border: 2px solid #dbdbdb;
+      border-radius: 50%;
+    }
+    .box-wrapper {
+        transition: all ease 0.5s;
+        border-bottom: 3px solid #fccb06;
+        transform: translateY(0);
+        margin-top: 15px;
+        width: 315px;
+        margin: 0 auto;
+        &:hover {
+          transform: translateY(-15px);
+        }
+        .box-item {
+          position: relative;
+          width: 100%;
+          float: left;
+          padding: 60px;
+          background-color: #fff;
+          box-shadow: 0 20px 20px 20px rgba(0, 0, 0, 0.04);
+          transition: all 0.3s ease-out 0s;
+          .icon {
+            font-size: 60px;
+            color: #000000ad;
+          }
+          .desc {
+            .title {
+              margin-top: 20px;
+              font-size: 18px;
+              line-height: 23px;
+              margin-bottom: 16px;
+              font-style: normal;
+              color: #272727;
+            }
+            .content {
+              font-weight: normal;
+              font-style: normal;
+              font-size: 14px;
+              line-height: 23px;
+              color: #727272;
+            }
+            .readmore {
+              color: #101010;
+              text-transform: uppercase;
+              font-weight: 600;
+              text-decoration: none;
+              transition: all 0.3s ease;
+              cursor: pointer;
+              background-color: transparent;
+              font-size: 14px;
+              transition: all ease 0.3s;
+              i {
+                color: #fccb06;
+                padding-left: 15px;
+              }
+              &:hover {
+                color: #fccb06;
+              }
+            }
+          }
+        }
+      }
+  }

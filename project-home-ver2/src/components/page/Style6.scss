@@ -1,0 +1,36 @@
+.style6 {
+    .sppb-addon {
+        border: 1px solid #ebebeb;
+        margin: 100px 0;
+        padding: 70px;
+        .sppb-addon-title {
+            font-weight: 600;
+            line-height: 40px;
+            font-size: 38px;
+            margin-bottom: 3px;
+        }
+        .sppb-addon-center {
+            .ce-title-line {
+                width: 12%;
+                height: 2px;
+                background-color: #fccb06;
+                margin: 15px auto 0 auto;
+            }
+            .texts {
+                font-size: 14px;
+                font-weight: 400;
+                color: #727272;
+            }
+            .btn {
+                border-radius: 5px;
+                background-color: black;
+                color: white;
+                padding: 10px 30px;
+                &:hover {
+                    color: #fff;
+                    background-color: #3e3e3e;
+                }
+            }
+        }
+    }
+}

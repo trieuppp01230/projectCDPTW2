@@ -1,0 +1,132 @@
+.creative-share {
+  &:hover {
+    .overlay-creative {
+      top: 140px;
+      opacity: 1;
+      transition: all 0.3s ease-out 0s;
+    }
+  }
+
+  //Hình ảnh này
+  .img-box-creative {
+    position: relative;
+    width: 100%;
+    z-index: 3;
+
+    .img-creative {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  //Hover icon này
+  .overlay-creative {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    float: left;
+    top: 300px;
+    opacity: 0;
+    z-index: 50;
+    background-color: #fccb06;
+    z-index: 50;
+
+    p {
+      color: #ffffff;
+      margin: 0 0 10px;
+    }
+
+    .icon-pp {
+      width: 100%;
+      padding: 0px;
+      transition: all 0.3s ease-out 0s;
+
+      li {
+        list-style: none;
+        float: left;
+        width: 25%;
+        .a {
+          font-size: 15px;
+          color: #fff;
+          line-height: 0px;
+          margin: 0px;
+          padding: 7px;
+          display: inline-block;
+          border-radius: 100%;
+          cursor: progress;
+        }
+
+        .a1 {
+          &:hover {
+            color: #343a40;
+          }
+        }
+
+        .a2 {
+          &:hover {
+            color: #007bff;
+          }
+        }
+
+        .a3 {
+          &:hover {
+            color: #28a745;
+          }
+        }
+
+        .a4 {
+          &:hover {
+            color: #6c757d;
+          }
+        }
+      }
+    }
+  }
+
+  .skarner-1 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    padding: 0;
+    left: 15px;
+    top: 250px;
+    z-index: 4;
+  }
+
+  .skarner-2 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    padding: 0;
+    left: 236px;
+    top: 210px;
+    z-index: 4;
+  }
+
+  .skarner-3 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    padding: 0;
+    left: 147px;
+    top: 321px;
+    z-index: 5;
+  }
+
+  .text-box-cr {
+    width: 100%;
+    padding: 45px;
+    background-color: #fff;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.03);
+
+    .h5-title-cr {
+      padding: 0;
+      margin: 0;
+    }
+
+    .subtext {
+      margin: 0 0 10px;
+    }
+  }
+}

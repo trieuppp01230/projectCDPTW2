@@ -1,0 +1,33 @@
+.header-light {
+    margin-bottom: 100px;
+    .panner {
+        margin-bottom: 100px;
+    }
+    .menu {
+        background: #fff!important;
+        color: #000!important;
+        position: relative;
+        .nav-link {
+            color:#000!important;
+            &:hover {
+                color:#fccb06!important; 
+            }
+        }
+    }
+    .scrolled {
+        background: #fff!important;
+        box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.12);
+    }
+    .logo {
+        color: #000!important;
+    }
+    .header-light-first {
+        margin-top: 100px;
+    }
+    .header_white25 {
+        padding: 100px 0;
+    }
+    .style8 {
+        margin: 7px 0;
+    }
+}
